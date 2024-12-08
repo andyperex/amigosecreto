@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70cda93d-d390-485e-b854-530e43bd5724" name="Changes" comment="changed the image path logic">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="70cda93d-d390-485e-b854-530e43bd5724" name="Changes" comment="changed the secret part to be added to stremlit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI.py" afterDir="false" />
     </list>
@@ -90,13 +89,22 @@
       <option name="project" value="LOCAL" />
       <updated>1733685149990</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changed the secret part to be added to stremlit">
+      <option name="closed" value="true" />
+      <created>1733686802369</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733686802369</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="all app is now working" />
     <MESSAGE value="changed the image path logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed the image path logic" />
+    <MESSAGE value="changed the secret part to be added to stremlit" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed the secret part to be added to stremlit" />
   </component>
 </project>
