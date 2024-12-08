@@ -12,7 +12,12 @@ def get_base64_image(image_path):
     return encoded_image
 
 # Ruta de tu imagen
-image_path = "/Users/cesarperez/Desktop/Life/Python Projects/amigosecreto/pythonProject1/background.JPEG"
+import os
+
+# Dynamically determine the path to the image
+current_dir = os.path.dirname(os.path.abspath(__file__))  # Directory where the script runs
+image_path = os.path.join(current_dir, "background.JPEG")  # Adjust to the correct file name
+
 image_base64 = get_base64_image(image_path)
 
 # CSS para el fondo
