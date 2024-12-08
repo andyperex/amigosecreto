@@ -100,7 +100,7 @@ if st.button("Enviar"):
 rows = sheet.get_all_records()
 st.subheader("Participantes Registrados")
 for row in rows:
-    st.text(f"🎉 {row['name']} - {row['email']}")
+    st.text(f"🎉 {row['name']} ")
 
 # Perform Matching
 if len(rows) >= 6 and st.button("Sortear Amigo Secreto"):
